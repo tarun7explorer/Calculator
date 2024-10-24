@@ -1,0 +1,14 @@
+number_1=float(input("Enter the first value\n"))
+print(("Choose the operation of your choice \n 1.Add \n 2.Substract \n 3.Multiply \n 4.Divide"))
+choice=int(input("Choose operation from 1,2,3,4\n"))
+number_2=float(input("Enter the second value \n"))
+if choice == 1:
+    print(number_1 + number_2)
+elif choice == 2:
+    print(number_1 - number_2)
+elif choice == 3:
+    print(number_1 * number_2)
+elif choice == 4:
+    print(number_1 / number_2)
+else:
+    print("Inavalid choice")
